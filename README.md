@@ -14,6 +14,8 @@ Provides quick visibility into your AWS resource inventory
 Easy to extend for additional services
 
 3.**Supported AWS Services**
+
+
 Service	Description
 ec2	Lists all EC2 instances
 rds	Lists all RDS database instances
@@ -33,6 +35,8 @@ ebs	Lists all EBS volumes
 Note: The script has a typo where route53 is written as route5. It should be corrected before use.
 
 4.**Prerequisites**
+
+
 AWS CLI must be installed and available in your system's PATH
 
 AWS CLI must be configured with valid credentials (aws configure)
@@ -52,6 +56,8 @@ Edit
 This command lists all EC2 instances in the us-east-1 region.
 
 5.**Installation**
+
+
 Clone the repository or download the aws_resource_list.sh script.
 
 6.**Make the script executable:**
@@ -63,5 +69,7 @@ chmod +x aws_resource_list.sh
 Run it with the required parameters.
 
 7.**Author**
+
+
 Rakshit Soratur
 Version: v0.1
