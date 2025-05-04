@@ -1,7 +1,10 @@
 1.**AWS Resource Lister Script**
+
+
 This is a Bash script that automates the listing of various AWS resources in a specified region using the AWS CLI.
 
 2.**Features**
+
 Supports multiple AWS services
 
 Accepts region and service as input parameters
