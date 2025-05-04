@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ###############################################################################
-# Author: Abhishek Veeramalla
-# Version: v0.0.1
+# Author: Rakshit Soratur
+# Version: v0.1
 
 # Script to automate the process of listing all the resources in an AWS account
 #
@@ -24,9 +24,6 @@
 # 15. EBS
 #
 # The script will prompt the user to enter the AWS region and the service for which the resources need to be listed.
-#
-# Usage: ./aws_resource_list.sh  <aws_region> <aws_service>
-# Example: ./aws_resource_list.sh us-east-1 ec2
 #############################################################################
 
 # Check if the required number of arguments are passed
